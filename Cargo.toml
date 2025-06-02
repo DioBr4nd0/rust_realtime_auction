@@ -1,0 +1,6 @@
+[package]
+name = "rust_auction_realtime"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
