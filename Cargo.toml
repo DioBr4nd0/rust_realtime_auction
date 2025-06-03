@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+actix-web = "4.11.0"
+anyhow = "1.0.98"
+auction_core = {path = "./crates/auction_core"}
+http_api = {path = "./crates/http_api"}
+auction_websockets = {path = "./crates/auction_websockets"}
+auction_persistance = {path = "./crates/auction_persistance"}
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+serde = "1.0.219"
+tokio = "1.45.1"

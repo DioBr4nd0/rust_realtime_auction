@@ -1,3 +1,5 @@
 /target
 /crates/auction_core/target
 /crates/auction_persistance/target
+/crates/http_api/target
+/crates/auction_websockets/target

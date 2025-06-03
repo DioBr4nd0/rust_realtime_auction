@@ -1656,22 +1656,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust_auction_realtime"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "anyhow",
- "auction_core",
- "auction_persistance",
- "auction_websockets",
- "dotenvy",
- "env_logger",
- "http_api",
- "serde",
- "tokio",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -1,0 +1,15 @@
+[package]
+name = "http_api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+serde = "1.0.219"
+tokio = "1.45.1"
+actix-web = "4.11.0"
+anyhow = "1.0.98"
+auction_core = {path = "../auction_core"}
+auction_persistance = {path = "../auction_persistance"}
+auction_websockets = {path = "../auction_websockets"}
